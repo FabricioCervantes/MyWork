@@ -2,8 +2,8 @@ import React from "react";
 import "@styles/globals.css";
 import Nav from "@components/Navbar";
 export const metadata = {
-  title: "Portfolio",
-  description: "Discover & track movies and TV shows",
+  title: "Fabricio Cervantes",
+  description: "A place to show my work and my thoughts",
 };
 
 const RootLayout = ({ children }) => {
@@ -14,7 +14,7 @@ const RootLayout = ({ children }) => {
         href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
       />
       <body className="bg text-white max-w-5xl mx-auto text-center p-10">
-        <Nav />
+        {/* <Nav /> */}
         {children}
       </body>
     </html>

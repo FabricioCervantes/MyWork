@@ -16,17 +16,17 @@ const ProjectCard = ({ name, description, picture, tags, gitLink, link }) => {
         sizes="100vw"
       />
       <div className="flex flex-col gap-5 p-2 mt-2">
-        <h1 className="text-4xl font-bold">{name}</h1>
+        <h1 className="text-4xl font-bold text-red-500">{name}</h1>
         <p className="text-md text-left whitespace-pre-line">{description}</p>
         <div className="flex gap-5">
           {link && (
             <Link href={link}>
-              <TfiWorld className="text-2xl" />
+              <TfiWorld className="text-2xl hover:text-red-500 transition-all" />
             </Link>
           )}
           {gitLink && (
             <Link href={gitLink}>
-              <FaGithub className="text-2xl" />
+              <FaGithub className="text-2xl hover:text-red-500 transition-all" />
             </Link>
           )}
         </div>

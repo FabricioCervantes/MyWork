@@ -33,7 +33,7 @@ const Home = () => {
       </div>
       <div>
         <h1 className="text-4xl font-bold">Projects</h1>
-        <div className="grid md:grid-cols-3 gap-5 mt-10">
+        <div className="grid md:grid-cols-2 gap-5 mt-10">
           <ProjectCard
             name="DEPI"
             description="ITM project fosters collaboration via secure, hosted platform for sharing content, simplifying authentication, and management."
